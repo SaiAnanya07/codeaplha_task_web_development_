@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    background-image: url('social.jpeg'); /* Add your image path here */
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /
+  }
+  
+  .social-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .social-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-link {
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .social-link img {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease; /* Add smooth transition effect */
+  }
+  
+  .social-link img:hover {
+    transform: scale(1.2); /* Scale up the image on hover */
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .social-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .social-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .follower-info {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .follower-info .followers,
+  .follower-info .following {
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .follower-info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .follower-info p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+  }
+  

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login or Register</h2>
+    <div id="login-form-container">
+      <h3>Login</h3>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="login-username">Username:</label>
+          <input type="text" id="login-username" name="login-username" required>
+        </div>
+        <div class="form-group">
+          <label for="login-password">Password:</label>
+          <input type="password" id="login-password" name="login-password" required>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+      <p id="login-error-message" class="error-message"></p>
+    </div>
+    <div id="register-form-container" style="display: none;">
+      <h3>Register</h3>
+      <form id="register-form">
+        <div class="form-group">
+          <label for="register-username">Username:</label>
+          <input type="text" id="register-username" name="register-username" required>
+        </div>
+        <div class="form-group">
+          <label for="register-password">Password:</label>
+          <input type="password" id="register-password" name="register-password" required>
+        </div>
+        <button type="submit">Register</button>
+      </form>
+      <p id="register-success-message" class="success-message" style="display: none;">Registration successful. You can now login.</p>
+      <p id="register-error-message" class="error-message"></p>
+    </div>
+    <p id="toggle-register-link">Don't have an account? <a href="#" onclick="toggleRegisterForm()">Register</a></p>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
